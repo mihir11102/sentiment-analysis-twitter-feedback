@@ -1,85 +1,64 @@
-# Sentiment Analysis on Twitter Feedback 🧠💬
+# Sentiment Analysis on Twitter Feedback
 
-A machine learning project to analyse public sentiment from Twitter data using **Natural Language Processing (NLP)** techniques. The model identifies whether a tweet expresses a **positive**, **negative**, or **neutral** emotion based on textual patterns and linguistic cues.
-
----
-
-## 📁 Project Overview
-Social media platforms generate vast amounts of text data daily. Analysing this information helps understand public perception toward products, events, or social issues.  
-This project leverages NLP methods to perform sentiment analysis on a large dataset of tweets related to a specific topic, enabling insights into audience sentiment trends.
+A machine learning project that analyses public sentiment from Twitter data using **Natural Language Processing (NLP)** techniques. The model classifies tweets as positive, negative, or neutral to uncover patterns and trends in online discussions.
 
 ---
 
-## ⚙️ Tech Stack
-- **Language:** Python  
-- **Frameworks & Libraries:**  
-  - pandas, numpy — data manipulation  
-  - scikit-learn — feature extraction and model training  
-  - nltk / spaCy — text preprocessing and tokenisation  
-  - matplotlib, seaborn — visualisation  
-- **Tools:** Jupyter Notebook, Git LFS for large file management
+## 🧠 Project Overview
+Social media provides valuable insights into public opinion. This project applies text preprocessing, tokenisation, feature extraction, and sentiment classification to Twitter feedback. Models such as Logistic Regression, Naïve Bayes, and Support Vector Machines are compared for performance. The objective is to automate sentiment detection and provide an interpretable NLP pipeline for text analytics applications.
 
 ---
 
-## 🧾 Dataset
-The dataset used for this project (`Machine Learning Sentiment.csv`) contains preprocessed tweets and their sentiment labels.  
-Due to its large size, it is tracked using **Git Large File Storage (LFS)**. To access it after cloning:
-```bash
-git lfs pull
-🚀 How to Run
-
-Clone this repository:
-
-git clone https://github.com/mihir11102/sentiment-analysis-twitter-feedback.git
-cd sentiment-analysis-twitter-feedback
-
-
-Install the dependencies:
+## ⚙️ Installation and Setup
+1. Clone this repository:
+   ```bash
+     git clone https://github.com/mihir11102/sentiment-analysis-twitter-feedback.git
+     cd sentiment-analysis-twitter-feedback
+2. Install the required dependencies:
 
 pip install -r requirements.txt
 
+
+3. Ensure Git LFS is installed to fetch large dataset files:
+
+git lfs install
+git lfs pull
+
+## ▶️ How to Run the Notebook
 
 Launch Jupyter Notebook:
 
 jupyter notebook setup.ipynb
 
 
-Run the cells step-by-step to:
+Open setup.ipynb and execute all cells sequentially:
 
 Load and clean the dataset
 
-Tokenise and vectorise text
+Perform text preprocessing and vectorisation
 
-Train and evaluate machine learning models
+Train and evaluate sentiment classification models
 
-Visualise sentiment distribution and accuracy
+Visualise accuracy, confusion matrix, and key metrics
 
-📊 Results
 
-The trained model achieves high accuracy in distinguishing between positive and negative sentiments. Visual outputs include:
+## 📊 Dataset Information
 
-Confusion matrix and classification metrics
+File: data/Machine Learning Sentiment.csv
 
-Word frequency and sentiment distribution plots
+Size: ~228 MB (tracked using Git LFS)
 
-(You can replace this section with actual performance metrics once your model is finalised.)
+Content: Tweets labelled as positive, negative, or neutral
 
-🧠 Future Improvements
+Source: Publicly available Twitter dataset for academic sentiment analysis
 
-Fine-tune transformer models such as BERT for better accuracy
+Note: Git LFS must be configured to correctly retrieve large files. Learn more at Git LFS
+.
 
-Extend dataset to multilingual sentiment analysis
+## 🔁 Reproducibility
 
-Deploy as a simple web dashboard or REST API
+All dependencies are listed in requirements.txt. The notebook runs with Python 3.10+ and common ML/NLP libraries such as pandas, nltk, scikit-learn, and matplotlib. A fixed random seed ensures reproducibility of results.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Mihir Bhansali
-Graduate Student | Data Science & AI | University of Florida
-📫 GitHub
-
-🪶 License
-
-This project is open-source and available under the MIT License.
-
-⚡ Note: The dataset is stored using Git LFS. To access or share the repository, ensure Git LFS is installed and configured on your system.
