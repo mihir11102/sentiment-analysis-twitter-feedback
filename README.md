@@ -30,6 +30,28 @@ Launch Jupyter Notebook:
 
 jupyter notebook setup.ipynb
 
+Download Model (Important)
+
+The model files are not stored in the GitHub repository because they exceed the size limits.
+Please download the model folder from Google Drive:
+
+Download link:
+https://drive.google.com/drive/folders/1l7mbzOSQV1uPQPJ7p9lAU0dgzvo248Ag
+
+After downloading, unzip the folder and place it in the following directory inside the project:
+
+sentiment-analysis-twitter-feedback/
+│
+├── models/
+│   └── distilbert_sentiment_model/
+│       ├── config.json
+│       ├── model.safetensors
+│       ├── tokenizer.json
+│       ├── tokenizer_config.json
+│       ├── vocab.txt
+│       └── special_tokens_map.json
+
+
 
 Open setup.ipynb and execute all cells sequentially:
 
