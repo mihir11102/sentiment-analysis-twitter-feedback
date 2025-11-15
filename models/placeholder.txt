@@ -1,8 +1,8 @@
-### 🔽 Download DistilBERT Model (Required)
+### 📦 DistilBERT Model Download (Required)
 
-The DistilBERT fine-tuned model is too large for GitHub.  
-Please download it from Google Drive:
+The fine-tuned DistilBERT sentiment model is not stored in this repository because it exceeds GitHub's file size limits.
 
-📌 **Download Model:** https://drive.google.com/drive/u/0/folders/1l7mbzOSQV1uPQPJ7p9lAU0dgzvo248Ag
+🔗 **Download Link:** https://drive.google.com/drive/u/0/folders/1l7mbzOSQV1uPQPJ7p9lAU0dgzvo248Ag
+
 
 
