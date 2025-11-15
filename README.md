@@ -7,6 +7,9 @@ A machine learning project that analyses public sentiment from Twitter data usin
 ## 🧠 Project Overview
 Social media provides valuable insights into public opinion. This project applies text preprocessing, tokenisation, feature extraction, and sentiment classification to Twitter feedback. Models such as Logistic Regression, Naïve Bayes, and Support Vector Machines are compared for performance. The objective is to automate sentiment detection and provide an interpretable NLP pipeline for text analytics applications.
 
+🔧 System Architecture
+<img width="731" height="201" alt="Untitled Diagram drawio (2)" src="https://github.com/user-attachments/assets/8331dbbf-d364-4375-9475-c1704e73053c" />
+
 ---
 
 ## ⚙️ Installation and Setup
